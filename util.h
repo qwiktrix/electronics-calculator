@@ -3,6 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include <cmath>
 
 namespace util{
 
@@ -10,9 +11,7 @@ namespace util{
 // Empty string check
 bool isStrEmpty(const std::string &str);
 
-/*--- Math Functions -- */
-// e^x using Taylor Series 
-long double e(long double x);
+
 
 }
 

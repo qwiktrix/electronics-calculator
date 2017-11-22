@@ -25,9 +25,11 @@ int main() {
             if (input == "1" || input == "[1]") {
   	    	dischargeCapacitor calc;
 		sel = true;
+
             } else if (input == "X" || input == "x") {
 	    	exit = true;
 		sel = true;
+
             } else {
             	std::cout << "Sorry that is not a valid option." << std::endl;
    	    	std::cout << "Please select one of the available options" << std::endl;

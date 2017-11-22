@@ -10,7 +10,10 @@ class dischargeCapacitor {
     private:
 	void initVar();
 	void calcCapacitorVoltage();
-	double vc, v0, t, r, c, i;
+	void calcCapacitorCurrent();
+	void calcPowerOfResistor();
+	void setTime(double time);
+	double vc, v0, t, r, c, i, p;
 };
 
 #endif //DISCHARGE_CAPACITOR_H
